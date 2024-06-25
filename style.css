@@ -1,0 +1,413 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.principal {
+    display: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/valorant.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 550px;
+    box-shadow: inset 10px 10px 104px 0px rgba(0,0,0,0.75);
+    background-attachment: fixed;
+}
+
+.principal h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #fff;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+.principal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #fff;
+    max-width: 500px;
+    margin-left: 800px;
+}
+
+.principal input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #48C9DB;
+    color: #fff;
+    border-radius: 10px;
+    align-items: right;
+    margin-left: 970px;
+}
+
+.agentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.agentes h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.agentes img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.agentes a {
+    color: #0D488E;
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 1100px;
+}
+
+.CADASTRO {
+    display: fixed;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    background-color: #48C9DB;
+    padding: 20px;
+}
+
+.CADASTRO h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    margin-right: 20px; 
+    margin-left: 70px;
+}
+
+.CADASTRO input[type="email"],
+.CADASTRO input[type="password"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.CADASTRO input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0B7281;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 10%;
+    margin-left: 100px;
+}
+
+.CADASTRO img {
+    height: 300px;
+    width: 300px;
+    align-self: flex-start;
+    border-radius: 10px; 
+    margin-left: 900px;
+    margin-top: -230px;
+}
+
+
+
+footer {
+    overflow: hidden; 
+    background-color: #0B7281; 
+}
+
+.esquerda {
+    float: left;
+    padding: 20px;
+}
+
+.esquerda img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.direita {
+    float: right;
+    padding: 20px;
+}
+
+.direita img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 844px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+    }
+    
+    header {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header img {
+        height: 50px;
+    }
+    
+    header a {
+        color: #000000;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('img/valorant.jfif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 550px;
+        box-shadow: inset 10px 10px 104px 0px rgba(0,0,0,0.75);
+        background-attachment: fixed;
+    }
+    
+    .principal h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        text-align: right;
+        color: #fff;
+        margin-top: 100px;
+        margin-right: 70px;
+    }
+    
+    .principal p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: right;
+        color: #fff;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .principal input[type="button"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #48C9DB;
+        color: #fff;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .agentes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .agentes h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .agentes img {
+        width: 250px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .agentes a {
+        color: #0D488E;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    
+    .CADASTRO {
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center; 
+        background-color: #48C9DB;
+        padding: 20px;
+    }
+    
+    .CADASTRO h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: left;
+        color: #fff;
+        margin-right: 20px; 
+        margin-left: auto;
+    }
+    
+    .CADASTRO input[type="email"],
+    .CADASTRO input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .CADASTRO input[type="button"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #0B7281;
+        color: #fff;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: 80%;
+    }
+    
+    .CADASTRO img {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px; 
+        margin-top: -230px;
+    }
+    
+    footer {
+        overflow: hidden; 
+        background-color: #0B7281; 
+    }
+    
+    .esquerda {
+        float: left;
+        padding: 20px;
+    }
+    
+    .esquerda img {
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .direita {
+        float: right;
+        padding: 20px;
+    }
+    
+    .direita img {
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    @media only screen and (max-width: 844px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header a {
+            margin: 10px 0;
+        }
+        
+        .principal {
+            height: auto;
+        }
+        
+        .principal h1 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        
+        .principal p {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        
+        .principal input[type="button"] {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .agentes img {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .agentes a {
+            margin-right: 1100px;
+        }
+        
+        .CADASTRO h1 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+        
+        .CADASTRO input[type="email"],
+        .CADASTRO input[type="password"] {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .CADASTRO input[type="button"] {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .CADASTRO img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+        }
+    }
+    
+}
